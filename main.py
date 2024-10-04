@@ -49,4 +49,4 @@ async def mines(interaction: discord.Interaction, tile_amt: int, round_id : str)
         em.add_field(name='Error', value="Invalid round id")
         await interaction.response.send_message(embed=em)
 
-client.run('bot token')
+client.run('daf04c7a5306ca83699baa90cd4b1011a5d446b6c370c918c3a93b50a15f2503')
